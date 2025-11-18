@@ -1,7 +1,12 @@
-MyWallet client
+MyWallet server
 
 Commands:
+- cd mywallet-server
 - npm install
 - npm run dev
 
-Server should run at http://localhost:4000
+Environment variables:
+- STRIPE_API_KEY (optional for simulation)
+- JWT_SECRET
+
+DB: sqlite file mywallet.db will be created in server folder.
